@@ -23,6 +23,11 @@ public class Discount {
 
         //In a grocery shop you get a discount if you buy one drink, but only if it is not alcoholic.
 
+       boolean alcoholic = false;
+       boolean notAlcoholic = true;
+       boolean ergebnisDrink= notAlcoholic || !alcoholic;
+        System.out.println (" Du hast eine Angebote für gekaufte Drink bekommen! " + ergebnisDrink);
+
 
 
 
