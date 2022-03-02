@@ -23,6 +23,7 @@ public class Vjezba {
         System.out.println ("Wie vile  Not Alcoholic hast du gekauft?");
         int notAlcoholic= sc.nextInt();
         boolean resultDrink = notAlcoholic==1 && alcoholic==0;
+
         System.out.println ("Du hast eine Angebote bekommen " + resultDrink );
 
 
