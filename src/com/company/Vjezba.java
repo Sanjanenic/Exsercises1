@@ -17,6 +17,16 @@ public class Vjezba {
         System.out.println ("Du hast eine Angebote bekommen " + result );
 
 
+        //In a grocery shop you get a discount if you buy one drink, but only if it is not alcoholic.
+        System.out.println ("Wie vile  Alcoholic hast du gekauft?");
+        int alcoholic= sc.nextInt();
+        System.out.println ("Wie vile  Not Alcoholic hast du gekauft?");
+        int notAlcoholic= sc.nextInt();
+        boolean resultDrink = notAlcoholic==1 && alcoholic==0;
+        System.out.println ("Du hast eine Angebote bekommen " + resultDrink );
+
+
+
 
     }
 }
