@@ -15,9 +15,9 @@ public class Retangle2 {
          System.out.println (umfangRecnen(2, 3));
 
          //inicijalizacija varijabli
-        int width=9;
-        int lenght =89;
-        //
+        width=9;
+        lenght =89;
+
         umfang = umfangRecnen(width, lenght);
         System.out.println (umfang);
     }
