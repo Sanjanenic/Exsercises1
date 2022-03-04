@@ -31,3 +31,102 @@ public class Vjezba {
 
     }
 }
+
+//package fh.campus02;
+
+import java.util.Scanner;
+
+public class ScannerUebung {
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in); //neue instanz von diese Class, System in ist sourse, Tatatur in unsere Fall
+        //System.out.println("")
+
+        System.out.println("Enter an number, then press Enter");
+        int number = sc.nextInt(); //to sto cemo ucitati spasavamo u novu varijablu
+        int sum =0;
+        //System.out.println("You entred: " + number);
+
+        while (number>0){
+            if (number == 2){
+                sum= sum*2;
+                System.out.println ("double Bonus!");
+                System.out.println("Enter another number!");
+                number = sc.nextInt();
+            }
+            else if (number == 3){
+                sum =sum*3;
+                System.out.println ("triple Bonus!");
+                System.out.println("Enter another number!");
+                number = sc.nextInt();
+
+            }
+            else if (number == 22){
+                sum =sum/2;
+                System.out.println ("Sum halved!");
+                System.out.println("Enter another number!");
+                number = sc.nextInt();
+            }
+            else {
+                sum+=number; //isto je sum = sum + number
+                System.out.println("Enter another number!");
+                number = sc.nextInt();
+
+            }
+
+        }
+
+        System.out.println("Your total sum is : " + sum);
+        sc.close();
+
+
+
+    }
+}
+
+//package fh.campus02;
+
+import java.util.Scanner;
+
+public class Vowels {
+    public static void main(String[] args) {
+
+        CheckLetter() ;
+
+    }
+
+    public static void CheckLetter() {
+        String letter;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter an letter!");
+        letter = sc.nextLine();
+
+        String n = "0";
+        while (letter.equals(n)){
+            String a = "a";
+            String e = "e";
+            String u = "u";
+            String o = "o";
+            String in = "i";
+
+
+        if (letter.equals(a) || letter.equals(e) || letter.equals(u) || letter.equals(o) || letter.equals(in)) {
+
+            System.out.println("It is a vowel!");
+            letter = sc.nextLine();
+
+        }
+        else{
+            System.out.println("It is a consonant!");
+             sc.close();
+            break; 
+        }
+        }
+
+
+        }
+
+
+
+    }
+
