@@ -129,4 +129,24 @@ public class Vowels {
 
 
     }
+//package fh.campus02;
+
+import java.util.Scanner;
+
+public class AriitmeticTower {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int x = sc.nextInt();
+
+        for (int index = 2; index <=9; index ++){
+
+            System.out.println(x*index);
+        }
+           int index1= 2;
+        for (index1 = 2; index1 <=9; index1 ++){
+            System.out.println(x/index1);
+
+        }
+    }
+}
 
