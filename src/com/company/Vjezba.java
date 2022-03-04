@@ -159,4 +159,27 @@ for (int index = 2; index <=9; index ++)
 System.out.println(startvalye + "/ " + index);
 startvalue= startvalue/i; 
  */
+//package fh.campus02;
+
+import java.util.Arrays;
+
+public class ArreyBeispiel {
+    public static void main(String[] args) {
+        //initialisieren
+        int[] array = new int[3];
+        array[0]=12;
+        array[1]=56;
+        array[2]=91;
+
+        System.out.println(Arrays.toString(array));
+//initialisieren mit einfuhllen
+        int[] array2 = new int [] {12,17,23};
+        System.out.println(Arrays.toString(array2));
+//promjena vrijednosti na poziciji 2 
+        array[2]=15;
+        System.out.println(Arrays.toString(array));
+
+    }
+}
+
 
