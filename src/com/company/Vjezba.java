@@ -129,7 +129,7 @@ public class Vowels {
 
 
     }
-//package fh.campus02;
+//package fh.campus02;Ovo ne radi bas sta bi trebalo
 
 import java.util.Scanner;
 
@@ -149,4 +149,14 @@ public class AriitmeticTower {
         }
     }
 }
+/*drugi nacin ovoga prije
+int start value= 12;
+for (int index = 2; index <=9; index ++)
+System.out.println(startvalye + "* " + index);
+startvalue= startvalue*i; 
+
+for (int index = 2; index <=9; index ++)
+System.out.println(startvalye + "/ " + index);
+startvalue= startvalue/i; 
+ */
 
