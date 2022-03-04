@@ -27,10 +27,10 @@ public class Discount {
         //System.out.println (" Du hast eine Angebote für gekaufte Bucherer bekommen! " + ergebnisBook);
 
         //In a grocery shop you get a discount if you buy one drink, but only if it is not alcoholic.
-        int alcoholic = 1;
+        int alcoholic =1;
         int nonAlcoholic = 0;
-        int drink = 0;
-        System.out.println("For this grocery haul you get a discount: " + (drink != 1));
+
+        System.out.println("For this grocery haul you get a discount: " + (nonAlcoholic >= 1 && alcoholic==0));
        //boolean alcoholic = false; Das war meine Versuch
        //boolean notAlcoholic = true;
       // boolean ergebnisDrink= notAlcoholic || !alcoholic;
@@ -58,6 +58,7 @@ public class Discount {
         System.out.println("For this grocery haul you get a discount: " + (drink != 1));
     }
  */
+
 
 
 
